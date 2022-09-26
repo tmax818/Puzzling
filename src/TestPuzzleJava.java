@@ -3,5 +3,9 @@ public class TestPuzzleJava {
 
         PuzzleJava pj = new PuzzleJava();
         pj.getTenRolls();
+        char letter = pj.getRandomLetter();
+        System.out.println(letter);
+        pj.generatePassword();
+        pj.getNewPasswordSet(12);
     }
 }
